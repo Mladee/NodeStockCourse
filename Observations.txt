@@ -1,0 +1,4 @@
+1.YOU CAN'T ADD COMMENTS IN A JSON FILE
+2.To run the server easier,in the json file in scripts change those "start": "node index", "dev" : "nodemon index",then we can run the sv with npm run dev.
+3.We can use handlebars to easpily pass data FROM THE BACKEND TO THE FRONTEND.
+4.The "." symbol means EVERYTHING
