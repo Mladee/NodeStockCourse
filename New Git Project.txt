@@ -9,3 +9,6 @@ After creating the git repository we will want to:
 
 1.Add all of them : git add. <- the "." means add EVERYTHING
 2.Commit all of those(to save them): git commit -am 'initial commit' <- that is a description
+3.Make a hidden directory for our secure key: mkdir ~/.ssh
+4.Move to that directory: cd ~/.ssh
+5.Now we want to generate our ssh key in this folder: ssh-keygen.exe
