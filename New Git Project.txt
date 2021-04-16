@@ -7,8 +7,20 @@ $ git init
 
 After creating the git repository we will want to:
 
-1.Add all of them : git add. <- the "." means add EVERYTHING
+1.Add all of them : git add . <- the "." means add EVERYTHING
 2.Commit all of those(to save them): git commit -am 'initial commit' <- that is a description
 3.Make a hidden directory for our secure key: mkdir ~/.ssh
 4.Move to that directory: cd ~/.ssh
 5.Now we want to generate our ssh key in this folder: ssh-keygen.exe
+6.Then we get our key: cat id_rsa.pub <- cat stands for catalog
+7.Next we go to github and create a new SSH key by using copy paste on the ssh key that was generated at 6.
+8.Now we will create a repository  and after creating it we will copy paste into the bash terminal the 3 lines of code provided by github.
+9.Success
+
+
+If we want to add changes to the code and commit it again with the new changes:
+
+1.Add all of them : git add .
+2.Commit all of those(to save them): git commit -am 'literally any comment you want'
+3.Push all the stuff : git push
+4.Refresh the github page

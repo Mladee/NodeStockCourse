@@ -3,3 +3,4 @@
 3.We can use handlebars to easpily pass data FROM THE BACKEND TO THE FRONTEND.
 4.The "." symbol means EVERYTHING.
 5.PRO Tip:You should save your code before doing something major!
+6.SSH = Secure Shell Keys
