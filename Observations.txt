@@ -1,6 +1,12 @@
 1.YOU CAN'T ADD COMMENTS IN A JSON FILE
 2.To run the server easier,in the json file in scripts change those "start": "node index", "dev" : "nodemon index",then we can run the sv with npm run dev.
-3.We can use handlebars to easpily pass data FROM THE BACKEND TO THE FRONTEND.
+3.We can use handlebars to easily pass data FROM THE BACKEND TO THE FRONTEND.
 4.The "." symbol means EVERYTHING.
 5.PRO Tip:You should save your code before doing something major!
 6.SSH = Secure Shell Keys
+7.Everything we put into main.handlebars will be refflected on all handlebars pages.
+8.Introduce a LINE BREAK: <br/>
+9.API = APPLICATION PROGRAMMING INTERFACE
+10.To use an API,we use "request".
+11.The crazy logic here is that when we have a function call,while the function is executed(because it is called),the next line is being executed,even though the function didn t finish getting executed.Quite tricky!
+12.'/' reffers to HOMEPAGE

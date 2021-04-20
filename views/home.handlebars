@@ -1,2 +1,31 @@
-<h1> Welcome to the jungle.</h1>
-<p>{{fun}}</p>
+
+
+
+<div class = "p-3 mb-2 bg-dark text-info">
+	<h1 class = "display -4">{{stock.companyName }} ({{stock.symbol }})</h1>
+	
+	<strong>Latest Price: </strong>{{ stock.latestPrice }}$<br/>
+	<strong>Previous Close: </strong>{{ stock.previousClose }}$<br/>
+	<strong>Percent Change: </strong>{{ stock.changePercent }}%<br/>
+	<strong>Market Cap: </strong>{{ stock.marketCap}}$<br/>
+	<strong>YTD Change: </strong>{{ stock.ytdChange }}%<br/>
+	<strong>52wk High: </strong>{{ stock.week52High }}$<br/>
+	<strong>52wk Low: </strong>{{ stock.week52Low }}$<br/>
+	
+
+
+</div>
+
+
+
+
+<!--
+
+{{#each stock}}
+
+	{{@key}} | {{this}}<br/>
+
+{{/each}}
+
+
+-->

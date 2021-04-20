@@ -1,9 +1,14 @@
+0.To re-execute previous commands we can press: TOP ARROW
 1.Create new Directory: mkdir /c/NewFolderName
 2.Change Directory : cd /c/NewFolderName
 3.Show containing files: pwd/ls
 4.Node Package Manager : npm init -y    <- creates a Json Package
 5.Installing Express via GitBash: npm install express
 6.Restarting the GitBash server: CTRL + C
-7.Running your server: node File_Name.js
+7.Running your server: node File_Name.js   
 8.Monitoring your server so you dont have to do steps 6,7 once every 10 seconds:   npm install -D nodemon  <- D stands for development and we use it cuz we only want it to run on OUR computer ,nodemon = node monitor
-9.To re-execute previous commands we can press: TOP ARROW
+9. We can run the server with:  npm run dev if we implement these changes in the json file:
+
+"start": "node index",
+"dev": "nodemon index"
+
